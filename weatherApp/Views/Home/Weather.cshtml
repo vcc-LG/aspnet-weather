@@ -1,0 +1,47 @@
+﻿@model weatherApp.ViewModels.WeatherViewModel
+@{
+ViewBag.Title = "Weather";
+}
+
+<h1>Viewing weather for @Model.CityName </h1>
+
+<table class="table table-hover" id="temperatureTable">
+    <thead>
+    <tr>
+        <th>Date and time</th>
+        <th>Min. temp</th>
+        <th>Max. temp</th>
+    </tr>
+        </thead>
+    <tbody>
+        
+        @foreach (var item in @Model.DataPoints)
+            {
+        <tr>
+            <td>@item.Date</td>
+            <td>@item.TempMin.ToString("0.00")</td>
+            <td>@item.TempMax.ToString("0.00")</td>
+        </tr>
+            }
+        </tbody>
+</table>
+
+@section scripts {
+<script type="text/javascript">
+    $(document).ready(function() {
+        console.log("Calculating");
+
+        $(function() {
+
+            var colArray = $('#temperatureTable td:nth-child(3)').map(function() {
+                return parseFloat($(this).text());
+            }).get();
+            var i = colArray.indexOf(Math.max(...colArray));
+            console.log(i);
+            var rows = $('tr', temperatureTable);
+            rows.eq(i).addClass('hottest-day');
+        });
+
+    });
+</script>
+}

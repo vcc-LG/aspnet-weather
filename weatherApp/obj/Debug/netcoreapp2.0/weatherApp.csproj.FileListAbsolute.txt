@@ -1,0 +1,11 @@
+/Users/leo/Projects/weatherApp/weatherApp/obj/Debug/netcoreapp2.0/weatherApp.csproj.CoreCompileInputs.cache
+/Users/leo/Projects/weatherApp/weatherApp/obj/Debug/netcoreapp2.0/weatherApp.AssemblyInfoInputs.cache
+/Users/leo/Projects/weatherApp/weatherApp/obj/Debug/netcoreapp2.0/weatherApp.AssemblyInfo.cs
+/Users/leo/Projects/weatherApp/weatherApp/bin/Debug/netcoreapp2.0/weatherApp.deps.json
+/Users/leo/Projects/weatherApp/weatherApp/bin/Debug/netcoreapp2.0/weatherApp.runtimeconfig.json
+/Users/leo/Projects/weatherApp/weatherApp/bin/Debug/netcoreapp2.0/weatherApp.runtimeconfig.dev.json
+/Users/leo/Projects/weatherApp/weatherApp/bin/Debug/netcoreapp2.0/weatherApp.dll
+/Users/leo/Projects/weatherApp/weatherApp/bin/Debug/netcoreapp2.0/weatherApp.pdb
+/Users/leo/Projects/weatherApp/weatherApp/obj/Debug/netcoreapp2.0/weatherApp.dll
+/Users/leo/Projects/weatherApp/weatherApp/obj/Debug/netcoreapp2.0/weatherApp.pdb
+/Users/leo/Projects/weatherApp/weatherApp/obj/Debug/netcoreapp2.0/weatherApp.csprojResolveAssemblyReference.cache

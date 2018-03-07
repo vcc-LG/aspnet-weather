@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{585CB96B-D409-45CA-BFD9-8905BFA316EE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="weatherApp/Models/ErrorViewModel.cs">
+    <Files>
+      <File FileName="weatherApp/Models/WeatherJSONModel.cs" Line="11" Column="41" />
+      <File FileName="weatherApp/ViewModels/WeatherViewModel.cs" Line="53" Column="1" />
+      <File FileName="weatherApp/Models/WeatherDataPointModel.cs" Line="9" Column="6" />
+      <File FileName="weatherApp/Models/ErrorViewModel.cs" Line="7" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.weatherApp PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
